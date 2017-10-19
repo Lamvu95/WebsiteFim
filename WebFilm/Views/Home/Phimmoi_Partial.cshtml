@@ -1,0 +1,37 @@
+﻿@using WebFilm.Models;
+@model List<Table_Fim>
+<div class="main-top">
+    <div class="heading">
+        <span class="title">PHIM ĐỀ CỬ</span>
+    </div><!-- .heading -->
+    <div class="uk-slidenav-position index-link-slider" data-uk-slider="{autoplay: false, autoplayInterval: 2000}">
+        <div class="uk-slider-container">
+            <ul class="uk-slider uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-grid-match" data-uk-grid-match="{target:'.product-name'}">
+                @foreach (var item in Model)
+                {
+                    <li>
+                        <div class="wrap">
+                            <div class="product uk-position-relative new ">
+
+                                <a href="@Url.Action("phim/"+@item.IDFim, "Home")"><img src="~/Content/image_webfim/@item.AnhPhim" alt="" /></a>
+
+                                <div class="detail">
+                                    <span class="fa fa-star-0"></span>
+                                    <h3 class="product-name uk-margin-remove"><a href="Home/phim/@item.IDFim">@item.NameFim</a></h3>
+
+                                </div>
+
+                            </div><!-- .product -->
+                        </div><!--.wrap -->
+                    </li>
+                }
+            </ul>
+        </div><!-- .uk-slider-container -->
+        <a href="#" class="uk-slidenav uk-slidenav-previous" data-uk-slider-item="previous"></a>
+        <a href="#" class="uk-slidenav uk-slidenav-next" data-uk-slider-item="next"></a>
+    </div><!-- index-link-slider --><div data-uk-slider>
+
+
+
+    </div>
+</div><!-- .main-top -->

@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebFilmModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Table_CaTaLog">
+    <Key>
+      <PropertyRef Name="IDCatalog" />
+    </Key>
+    <Property Name="IDCatalog" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameCatalog" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NameAscii" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDUserName" Type="Int32" />
+    <NavigationProperty Name="Table_Username" Relationship="Self.FK__Table_CaT__IDUse__4C6B5938" FromRole="Table_CaTaLog" ToRole="Table_Username" />
+  </EntityType>
+  <EntityType Name="Table_CauHinh">
+    <Key>
+      <PropertyRef Name="IDCauHinh" />
+    </Key>
+    <Property Name="IDCauHinh" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameCauHinh" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDUserName" Type="Int32" />
+    <Property Name="GiaTriTrangThai" Type="Boolean" />
+    <Property Name="SkinMD" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SoTrangWed" Type="Int32" />
+    <Property Name="ThongBao" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CauHinhNow" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Table_Username" Relationship="Self.FK__Table_Cau__IDUse__6CD828CA" FromRole="Table_CauHinh" ToRole="Table_Username" />
+  </EntityType>
+  <EntityType Name="Table_Comment">
+    <Key>
+      <PropertyRef Name="IDComment" />
+    </Key>
+    <Property Name="IDComment" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameCommenFim" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NamePoster" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NDComment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDFim" Type="Int32" />
+    <NavigationProperty Name="Table_Fim" Relationship="Self.FK__Table_Com__IDFim__5AB9788F" FromRole="Table_Comment" ToRole="Table_Fim" />
+  </EntityType>
+  <EntityType Name="Table_Fim">
+    <Key>
+      <PropertyRef Name="IDFim" />
+    </Key>
+    <Property Name="IDFim" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameFim" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDTheLoai" Type="Int32" />
+    <Property Name="TenDienVien" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AnhDienVien" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ThongTinBoFim" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DaoDien" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NamSanXuat" Type="Int32" />
+    <Property Name="NoiSanXuat" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Rating" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDUserName" Type="Int32" />
+    <Property Name="AnhPhim" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Slide" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="url" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Table_Comment" Relationship="Self.FK__Table_Com__IDFim__5AB9788F" FromRole="Table_Fim" ToRole="Table_Comment" />
+    <NavigationProperty Name="Table_TheLoai" Relationship="Self.FK__Table_Fim__IDThe__55009F39" FromRole="Table_Fim" ToRole="Table_TheLoai" />
+    <NavigationProperty Name="Table_Username" Relationship="Self.FK__Table_Fim__IDUse__55F4C372" FromRole="Table_Fim" ToRole="Table_Username" />
+    <NavigationProperty Name="Table_Trailer" Relationship="Self.FK__Table_Tra__IDFim__719CDDE7" FromRole="Table_Fim" ToRole="Table_Trailer" />
+    <NavigationProperty Name="Table_YeuCau" Relationship="Self.FK__Table_Yeu__IDFim__6442E2C9" FromRole="Table_Fim" ToRole="Table_YeuCau" />
+  </EntityType>
+  <EntityType Name="Table_GiaoDienWed">
+    <Key>
+      <PropertyRef Name="IDGiaoDien" />
+    </Key>
+    <Property Name="IDGiaoDien" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameGiaoDien" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ThuMucChua" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="table_QuangCao">
+    <Key>
+      <PropertyRef Name="IDQuangCao" />
+    </Key>
+    <Property Name="IDQuangCao" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameQC" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DiaChiUrlQC" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AnhQC" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDUserName" Type="Int32" />
+    <NavigationProperty Name="Table_Username" Relationship="Self.FK__table_Qua__IDUse__47A6A41B" FromRole="table_QuangCao" ToRole="Table_Username" />
+  </EntityType>
+  <EntityType Name="Table_TheLoai">
+    <Key>
+      <PropertyRef Name="IDTheLoai" />
+    </Key>
+    <Property Name="IDTheLoai" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameTheLoai" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MoTa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="HienThiTL" Type="Boolean" />
+    <NavigationProperty Name="Table_Fim" Relationship="Self.FK__Table_Fim__IDThe__55009F39" FromRole="Table_TheLoai" ToRole="Table_Fim" />
+  </EntityType>
+  <EntityType Name="Table_TinTuc">
+    <Key>
+      <PropertyRef Name="IDTintuc" />
+    </Key>
+    <Property Name="IDTintuc" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameTucTuc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NameAciss" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDUserNane" Type="Int32" />
+    <NavigationProperty Name="Table_Username" Relationship="Self.FK__Table_Tin__IDUse__5F7E2DAC" FromRole="Table_TinTuc" ToRole="Table_Username" />
+  </EntityType>
+  <EntityType Name="Table_Trailer">
+    <Key>
+      <PropertyRef Name="IDTrailer" />
+    </Key>
+    <Property Name="IDTrailer" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameTrailer" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UrlTrailer" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDFim" Type="Int32" />
+    <NavigationProperty Name="Table_Fim" Relationship="Self.FK__Table_Tra__IDFim__719CDDE7" FromRole="Table_Trailer" ToRole="Table_Fim" />
+  </EntityType>
+  <EntityType Name="Table_Username">
+    <Key>
+      <PropertyRef Name="IDUserName" />
+    </Key>
+    <Property Name="IDUserName" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameUser" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PassUser" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="GioiTinh" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="SDT" Type="Int32" />
+    <Property Name="Chucvu" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Table_CaTaLog" Relationship="Self.FK__Table_CaT__IDUse__4C6B5938" FromRole="Table_Username" ToRole="Table_CaTaLog" />
+    <NavigationProperty Name="Table_CauHinh" Relationship="Self.FK__Table_Cau__IDUse__6CD828CA" FromRole="Table_Username" ToRole="Table_CauHinh" />
+    <NavigationProperty Name="Table_Fim" Relationship="Self.FK__Table_Fim__IDUse__55F4C372" FromRole="Table_Username" ToRole="Table_Fim" />
+    <NavigationProperty Name="table_QuangCao" Relationship="Self.FK__table_Qua__IDUse__47A6A41B" FromRole="Table_Username" ToRole="table_QuangCao" />
+    <NavigationProperty Name="Table_TinTuc" Relationship="Self.FK__Table_Tin__IDUse__5F7E2DAC" FromRole="Table_Username" ToRole="Table_TinTuc" />
+  </EntityType>
+  <EntityType Name="Table_YeuCau">
+    <Key>
+      <PropertyRef Name="IDYeuCau" />
+    </Key>
+    <Property Name="IDYeuCau" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameYeuCau" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DiaChiYeuCau" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDFim" Type="Int32" />
+    <NavigationProperty Name="Table_Fim" Relationship="Self.FK__Table_Yeu__IDFim__6442E2C9" FromRole="Table_YeuCau" ToRole="Table_Fim" />
+  </EntityType>
+  <Association Name="FK__Table_CaT__IDUse__4C6B5938">
+    <End Role="Table_Username" Type="Self.Table_Username" Multiplicity="0..1" />
+    <End Role="Table_CaTaLog" Type="Self.Table_CaTaLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Table_Username">
+        <PropertyRef Name="IDUserName" />
+      </Principal>
+      <Dependent Role="Table_CaTaLog">
+        <PropertyRef Name="IDUserName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Table_Cau__IDUse__6CD828CA">
+    <End Role="Table_Username" Type="Self.Table_Username" Multiplicity="0..1" />
+    <End Role="Table_CauHinh" Type="Self.Table_CauHinh" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Table_Username">
+        <PropertyRef Name="IDUserName" />
+      </Principal>
+      <Dependent Role="Table_CauHinh">
+        <PropertyRef Name="IDUserName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Table_Com__IDFim__5AB9788F">
+    <End Role="Table_Fim" Type="Self.Table_Fim" Multiplicity="0..1" />
+    <End Role="Table_Comment" Type="Self.Table_Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Table_Fim">
+        <PropertyRef Name="IDFim" />
+      </Principal>
+      <Dependent Role="Table_Comment">
+        <PropertyRef Name="IDFim" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Table_Fim__IDThe__55009F39">
+    <End Role="Table_TheLoai" Type="Self.Table_TheLoai" Multiplicity="0..1" />
+    <End Role="Table_Fim" Type="Self.Table_Fim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Table_TheLoai">
+        <PropertyRef Name="IDTheLoai" />
+      </Principal>
+      <Dependent Role="Table_Fim">
+        <PropertyRef Name="IDTheLoai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Table_Fim__IDUse__55F4C372">
+    <End Role="Table_Username" Type="Self.Table_Username" Multiplicity="0..1" />
+    <End Role="Table_Fim" Type="Self.Table_Fim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Table_Username">
+        <PropertyRef Name="IDUserName" />
+      </Principal>
+      <Dependent Role="Table_Fim">
+        <PropertyRef Name="IDUserName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Table_Tra__IDFim__719CDDE7">
+    <End Role="Table_Fim" Type="Self.Table_Fim" Multiplicity="0..1" />
+    <End Role="Table_Trailer" Type="Self.Table_Trailer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Table_Fim">
+        <PropertyRef Name="IDFim" />
+      </Principal>
+      <Dependent Role="Table_Trailer">
+        <PropertyRef Name="IDFim" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Table_Yeu__IDFim__6442E2C9">
+    <End Role="Table_Fim" Type="Self.Table_Fim" Multiplicity="0..1" />
+    <End Role="Table_YeuCau" Type="Self.Table_YeuCau" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Table_Fim">
+        <PropertyRef Name="IDFim" />
+      </Principal>
+      <Dependent Role="Table_YeuCau">
+        <PropertyRef Name="IDFim" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__table_Qua__IDUse__47A6A41B">
+    <End Role="Table_Username" Type="Self.Table_Username" Multiplicity="0..1" />
+    <End Role="table_QuangCao" Type="Self.table_QuangCao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Table_Username">
+        <PropertyRef Name="IDUserName" />
+      </Principal>
+      <Dependent Role="table_QuangCao">
+        <PropertyRef Name="IDUserName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Table_Tin__IDUse__5F7E2DAC">
+    <End Role="Table_Username" Type="Self.Table_Username" Multiplicity="0..1" />
+    <End Role="Table_TinTuc" Type="Self.Table_TinTuc" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Table_Username">
+        <PropertyRef Name="IDUserName" />
+      </Principal>
+      <Dependent Role="Table_TinTuc">
+        <PropertyRef Name="IDUserNane" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WebFilmEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Table_CaTaLog" EntityType="Self.Table_CaTaLog" />
+    <EntitySet Name="Table_CauHinh" EntityType="Self.Table_CauHinh" />
+    <EntitySet Name="Table_Comment" EntityType="Self.Table_Comment" />
+    <EntitySet Name="Table_Fim" EntityType="Self.Table_Fim" />
+    <EntitySet Name="Table_GiaoDienWed" EntityType="Self.Table_GiaoDienWed" />
+    <EntitySet Name="table_QuangCao" EntityType="Self.table_QuangCao" />
+    <EntitySet Name="Table_TheLoai" EntityType="Self.Table_TheLoai" />
+    <EntitySet Name="Table_TinTuc" EntityType="Self.Table_TinTuc" />
+    <EntitySet Name="Table_Trailer" EntityType="Self.Table_Trailer" />
+    <EntitySet Name="Table_Username" EntityType="Self.Table_Username" />
+    <EntitySet Name="Table_YeuCau" EntityType="Self.Table_YeuCau" />
+    <AssociationSet Name="FK__Table_CaT__IDUse__4C6B5938" Association="Self.FK__Table_CaT__IDUse__4C6B5938">
+      <End Role="Table_Username" EntitySet="Table_Username" />
+      <End Role="Table_CaTaLog" EntitySet="Table_CaTaLog" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Table_Cau__IDUse__6CD828CA" Association="Self.FK__Table_Cau__IDUse__6CD828CA">
+      <End Role="Table_Username" EntitySet="Table_Username" />
+      <End Role="Table_CauHinh" EntitySet="Table_CauHinh" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Table_Com__IDFim__5AB9788F" Association="Self.FK__Table_Com__IDFim__5AB9788F">
+      <End Role="Table_Fim" EntitySet="Table_Fim" />
+      <End Role="Table_Comment" EntitySet="Table_Comment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Table_Fim__IDThe__55009F39" Association="Self.FK__Table_Fim__IDThe__55009F39">
+      <End Role="Table_TheLoai" EntitySet="Table_TheLoai" />
+      <End Role="Table_Fim" EntitySet="Table_Fim" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Table_Fim__IDUse__55F4C372" Association="Self.FK__Table_Fim__IDUse__55F4C372">
+      <End Role="Table_Username" EntitySet="Table_Username" />
+      <End Role="Table_Fim" EntitySet="Table_Fim" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Table_Tra__IDFim__719CDDE7" Association="Self.FK__Table_Tra__IDFim__719CDDE7">
+      <End Role="Table_Fim" EntitySet="Table_Fim" />
+      <End Role="Table_Trailer" EntitySet="Table_Trailer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Table_Yeu__IDFim__6442E2C9" Association="Self.FK__Table_Yeu__IDFim__6442E2C9">
+      <End Role="Table_Fim" EntitySet="Table_Fim" />
+      <End Role="Table_YeuCau" EntitySet="Table_YeuCau" />
+    </AssociationSet>
+    <AssociationSet Name="FK__table_Qua__IDUse__47A6A41B" Association="Self.FK__table_Qua__IDUse__47A6A41B">
+      <End Role="Table_Username" EntitySet="Table_Username" />
+      <End Role="table_QuangCao" EntitySet="table_QuangCao" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Table_Tin__IDUse__5F7E2DAC" Association="Self.FK__Table_Tin__IDUse__5F7E2DAC">
+      <End Role="Table_Username" EntitySet="Table_Username" />
+      <End Role="Table_TinTuc" EntitySet="Table_TinTuc" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

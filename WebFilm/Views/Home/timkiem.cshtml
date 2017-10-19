@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "timkiem";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="body">
+    <div class="uk-container uk-container-center">
+        <div class="breadcumb">
+            <ul class="uk-list">
+                <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                <li><a href="">@ViewBag.FilmTitle</a></li>
+            </ul>
+        </div><!-- .breadcumb -->
+
+        <div class="">
+            <div class="wrap">
+                <div class="preview">
+                    <div class="uk-grid">
+                        <div class="img-prevew uk-width-1-1">
+                            <iframe src="@Model.url" width="100%" height="480"></iframe>
+                        </div><!-- img-preview -->
+                    </div><!-- .uk-gird -->
+                </div><!-- preview -->
+            </div><!-- wrap -->
+        </div><!--.uk-grid-->
+        <div class="uk-grid main">
+            <div class="uk-width-1-4">
+                @Html.Action("PhimLienQuan_Partial", "Home")
+            </div><!-- aside -->
+            <div class="uk-width-3-4">
+                <div class="tab">
+                    <!-- This is the tabbed navigation containing the toggling elements -->
+                    <ul class="uk-tab" data-uk-tab="{connect:'#my-id'}" style="margin-top: 32px;">
+                        <li><a href="" title="" class="tab-active">Thông tin chi tiết</a></li>
+                        <li><a href="">Bình luận</a></li>
+                    </ul>
+
+                    <!-- This is the container of the content items -->
+                    <ul id="my-id" class="uk-switcher uk-margin">
+                        <li>
+                            <p class="content">
+                                @Model.ThongTinBoFim
+                            </p>
+                        </li>
+                        <li>
+                            <p class="content">
+                                <div class="fb-comments" data-href="@Request.Url.ToString()" data-width="825" data-numposts="5"></div>
+                            </p>
+                        </li>
+                    </ul>
+                </div><!-- .tab -->
+             
+            </div><!-- content -->
+        </div><!-- .uk-grid -->
+    </div><!--.container -->
+</section><!-- #body -->

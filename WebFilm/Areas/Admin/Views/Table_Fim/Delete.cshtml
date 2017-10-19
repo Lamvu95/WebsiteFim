@@ -1,0 +1,129 @@
+﻿@model WebFilm.Models.Table_Fim
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/Admin_LayoutPage.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Table_Fim</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NameFim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameFim)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TenDienVien)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenDienVien)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnhDienVien)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnhDienVien)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThongTinBoFim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThongTinBoFim)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DaoDien)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DaoDien)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NamSanXuat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NamSanXuat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NoiSanXuat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoiSanXuat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnhPhim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnhPhim)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Slide)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Slide)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.url)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.url)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Table_TheLoai.NameTheLoai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Table_TheLoai.NameTheLoai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Table_Username.NameUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Table_Username.NameUser)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

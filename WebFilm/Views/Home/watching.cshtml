@@ -1,0 +1,197 @@
+﻿@using WebFilm.Models;
+@model Table_Fim
+@{
+    ViewBag.Title = "Xem phim " + @ViewBag.FilmTitle;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section id="body">
+    <div class="uk-container uk-container-center">
+        <div class="breadcumb">
+            <ul class="uk-list">
+                <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                <li><a href="">@ViewBag.FilmTitle</a></li>
+            </ul>
+        </div><!-- .breadcumb -->
+        
+        <div class="">
+            <div class="wrap">
+                <div class="preview">
+                    <div class="uk-grid">
+                        <div class="img-prevew uk-width-1-1">
+                            <iframe src="@Model.url" width="100%" height="480"></iframe>
+                        </div><!-- img-preview -->
+                    </div><!-- .uk-gird -->
+                </div><!-- preview -->
+            </div><!-- wrap -->
+        </div><!--.uk-grid-->
+        <div class="uk-grid main">
+            <div class="uk-width-1-4">
+                @Html.Action("PhimLienQuan_Partial", "Home")
+            </div><!-- aside -->
+            <div class="uk-width-3-4">
+                <div class="tab">
+                    <!-- This is the tabbed navigation containing the toggling elements -->
+                    <ul class="uk-tab" data-uk-tab="{connect:'#my-id'}" style="margin-top: 32px;">
+                        <li><a href="" title="" class="tab-active">Thông tin chi tiết</a></li>
+                        <li><a href="">Bình luận</a></li>
+                    </ul>
+
+                    <!-- This is the container of the content items -->
+                    <ul id="my-id" class="uk-switcher uk-margin">
+                        <li>
+                            <p class="content">
+                                @Model.ThongTinBoFim
+                            </p>
+                        </li>
+                        <li>
+                            <p class="content">
+                                <div class="fb-comments" data-href="@Request.Url.ToString()" data-width="825" data-numposts="5"></div>
+                            </p>
+                        </li>
+                    </ul>
+                </div><!-- .tab -->
+                @*<div class="bottom">
+                        <div class="main-top">
+                            <div class="heading">
+                                <span class="title">HOT DEALS</span>
+                            </div><!-- .heading -->
+                            <div class="uk-slidenav-position index-link-slider" data-uk-slider="{autoplay: false, autoplayInterval: 2000}">
+                                <div class="uk-slider-container">
+                                    <ul class="uk-slider uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-grid-match" data-uk-grid-match="{target:'.product-name'}">
+                                        <li>
+                                            <div class="wrap">
+                                                <div class="product uk-position-relative new">
+                                                    <a href=""><img src="images/upload/product3.jpg" alt="" /></a>
+                                                    <ul class="list-icon uk-list uk-position-absolute">
+                                                        <li><i class="uk-icon-home"></i></li>
+                                                        <li><i class="uk-icon-heart"></i></li>
+                                                        <li><i class="uk-icon-shopping-cart"></i></li>
+                                                        <li><i class="uk-icon-search-plus"></i></li>
+                                                    </ul><!-- .list-icon -->
+                                                    <div class="detail">
+                                                        <span class="fa fa-star-0"></span>
+                                                        <h3 class="product-name uk-margin-remove"><a href="">Saze mute love</a></h3>
+                                                        <div class="price">$ 40.00 <span class="old">$ 89.00</span></div>
+                                                    </div>
+                                                </div><!-- .product -->
+                                            </div><!--.wrap -->
+                                        </li>
+                                        <li>
+                                            <div class="wrap">
+                                                <div class="product uk-position-relative new">
+                                                    <a href=""><img src="images/upload/product2.jpg" alt="" /></a>
+                                                    <ul class="list-icon uk-list uk-position-absolute">
+                                                        <li><i class="uk-icon-home"></i></li>
+                                                        <li><i class="uk-icon-heart"></i></li>
+                                                        <li><i class="uk-icon-shopping-cart"></i></li>
+                                                        <li><i class="uk-icon-search-plus"></i></li>
+                                                    </ul><!-- .list-icon -->
+                                                    <div class="detail">
+                                                        <span class="fa fa-star-0"></span>
+                                                        <h3 class="product-name uk-margin-remove"><a href="">Saze mute love</a></h3>
+                                                        <div class="price">$ 40.00 <span class="old">$ 89.00</span></div>
+                                                    </div>
+                                                </div><!-- .product -->
+                                            </div><!--.wrap -->
+                                        </li>
+                                        <li>
+                                            <div class="wrap">
+                                                <div class="product uk-position-relative new">
+                                                    <a href=""><img src="images/upload/product1.jpg" alt="" /></a>
+                                                    <ul class="list-icon uk-list uk-position-absolute">
+                                                        <li><i class="uk-icon-home"></i></li>
+                                                        <li><i class="uk-icon-heart"></i></li>
+                                                        <li><i class="uk-icon-shopping-cart"></i></li>
+                                                        <li><i class="uk-icon-search-plus"></i></li>
+                                                    </ul><!-- .list-icon -->
+                                                    <div class="detail">
+                                                        <span class="fa fa-star-0"></span>
+                                                        <h3 class="product-name uk-margin-remove"><a href="">Saze mute love</a></h3>
+                                                        <div class="price">$ 40.00 <span class="old">$ 89.00</span></div>
+                                                    </div>
+                                                </div><!-- .product -->
+                                            </div><!--.wrap -->
+                                        </li>
+                                        <li>
+                                            <div class="wrap">
+                                                <div class="product uk-position-relative new">
+                                                    <a href=""><img src="images/upload/product3.jpg" alt="" /></a>
+                                                    <ul class="list-icon uk-list uk-position-absolute">
+                                                        <li><i class="uk-icon-home"></i></li>
+                                                        <li><i class="uk-icon-heart"></i></li>
+                                                        <li><i class="uk-icon-shopping-cart"></i></li>
+                                                        <li><i class="uk-icon-search-plus"></i></li>
+                                                    </ul><!-- .list-icon -->
+                                                    <div class="detail">
+                                                        <span class="fa fa-star-0"></span>
+                                                        <h3 class="product-name uk-margin-remove"><a href="">Saze mute love</a></h3>
+                                                        <div class="price">$ 40.00 <span class="old">$ 89.00</span></div>
+                                                    </div>
+                                                </div><!-- .product -->
+                                            </div><!--.wrap -->
+                                        </li>
+                                        <li>
+                                            <div class="wrap">
+                                                <div class="product uk-position-relative new">
+                                                    <a href=""><img src="images/upload/product2.jpg" alt="" /></a>
+                                                    <ul class="list-icon uk-list uk-position-absolute">
+                                                        <li><i class="uk-icon-home"></i></li>
+                                                        <li><i class="uk-icon-heart"></i></li>
+                                                        <li><i class="uk-icon-shopping-cart"></i></li>
+                                                        <li><i class="uk-icon-search-plus"></i></li>
+                                                    </ul><!-- .list-icon -->
+                                                    <div class="detail">
+                                                        <span class="fa fa-star-0"></span>
+                                                        <h3 class="product-name uk-margin-remove"><a href="">Saze mute love</a></h3>
+                                                        <div class="price">$ 40.00 <span class="old">$ 89.00</span></div>
+                                                    </div>
+                                                </div><!-- .product -->
+                                            </div><!--.wrap -->
+                                        </li>
+                                        <li>
+                                            <div class="wrap">
+                                                <div class="product uk-position-relative new">
+                                                    <a href=""><img src="images/upload/product3.jpg" alt="" /></a>
+                                                    <ul class="list-icon uk-list uk-position-absolute">
+                                                        <li><i class="uk-icon-home"></i></li>
+                                                        <li><i class="uk-icon-heart"></i></li>
+                                                        <li><i class="uk-icon-shopping-cart"></i></li>
+                                                        <li><i class="uk-icon-search-plus"></i></li>
+                                                    </ul><!-- .list-icon -->
+                                                    <div class="detail">
+                                                        <span class="fa fa-star-0"></span>
+                                                        <h3 class="product-name uk-margin-remove"><a href="">Saze mute love</a></h3>
+                                                        <div class="price">$ 40.00 <span class="old">$ 89.00</span></div>
+                                                    </div>
+                                                </div><!-- .product -->
+                                            </div><!--.wrap -->
+                                        </li>
+                                        <li>
+                                            <div class="wrap">
+                                                <div class="product uk-position-relative new">
+                                                    <a href=""><img src="images/upload/product1.jpg" alt="" /></a>
+                                                    <ul class="list-icon uk-list uk-position-absolute">
+                                                        <li><i class="uk-icon-home"></i></li>
+                                                        <li><i class="uk-icon-heart"></i></li>
+                                                        <li><i class="uk-icon-shopping-cart"></i></li>
+                                                        <li><i class="uk-icon-search-plus"></i></li>
+                                                    </ul><!-- .list-icon -->
+                                                    <div class="detail">
+                                                        <span class="fa fa-star-0"></span>
+                                                        <h3 class="product-name uk-margin-remove"><a href="">Saze mute love</a></h3>
+                                                        <div class="price">$ 40.00 <span class="old">$ 89.00</span></div>
+                                                    </div>
+                                                </div><!-- .product -->
+                                            </div><!--.wrap -->
+                                        </li>
+                                    </ul>
+                                </div><!-- .uk-slider-container -->
+                                <a href="#" class="uk-slidenav uk-slidenav-previous" data-uk-slider-item="previous"></a>
+                                <a href="#" class="uk-slidenav uk-slidenav-next" data-uk-slider-item="next"></a>
+                            </div><!-- index-link-slider -->
+                        </div><!-- .main-top -->
+                    </div>*@<!-- .bottom -->
+            </div><!-- content -->
+        </div><!-- .uk-grid -->
+    </div><!--.container -->
+</section><!-- #body -->

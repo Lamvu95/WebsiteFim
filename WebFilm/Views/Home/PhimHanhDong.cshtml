@@ -1,0 +1,63 @@
+﻿@using WebFilm.Models;
+@model List<Table_Fim>
+@{
+    ViewBag.Title = "PhimHanhDong";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<section id="body">
+    <div class="uk-container uk-container-center">
+        <section class="wrapper">
+            <div class="uk-grid">
+
+                <div class="uk-width-medium-1-1 main uk-width-small-1-1">
+                    <div class="head-upper mb25">
+                        <div class="heading">
+                            <span class="title">Hành Động</span>
+                            <div class="wrap-nav">
+                                <nav class="uk-navbar nav-ad">
+                                    <div class="uk-navbar-flip">
+                                        <ul class="uk-navbar-nav">
+                                            @*<li><a href="@Url.Action("PhimHanhDong", "Home")" title="Tình Cảm">Hành động</a></li>*@
+                                            <li><a href="@Url.Action("PhimTinhCam", "Home")" title="Tình Cảm">TINH CẢM</a></li>
+                                            <li><a href="@Url.Action("PhimHaiHuoc", "Home")" title="Hài Hước">Hài Hước</a></li>
+                                            <li><a href="@Url.Action("PhimKhoaHoc", "Home")" title="Viễn Tưởng">KHOA HỌC VIỄN TƯỞNG</a></li>
+
+                                        </ul>
+                                    </div>
+                                </nav><!-- nav -->
+                            </div><!-- .wrap-ad -->
+                        </div><!-- .heading -->
+                        @*<img src="images/upload/ad2.png" alt="Quảng cáo" />*@
+                    </div><!--.head-upper -->
+                    <div class="main-upper">
+                        <div class="uk-grid">
+                            <div class="uk-width-medium-3-4 main uk-width-small-1-1">
+                                <div class="uk-grid uk-grid-width-1-2 uk-grid-width-medium-1-4 uk-grid-small uk-grid-match" data-uk-grid-match="{target:'.product-name'}">
+                                    @foreach (var item in Model)
+                                    {
+                                        <div class="wrap">
+                                            <div class="product uk-position-relative">
+                                                <a href="@Url.Action("phim/"+@item.IDFim, "Home")"><img src="~/Content/image_webfim/@item.AnhPhim" alt="" /></a>
+                                                <div class="detail">
+                                                    <span class="fa fa-star-0"></span>
+                                                    <h3 class="product-name uk-margin-remove"><a href="@Url.Action("phim/"+@item.IDFim, "Home")">@item.NameFim</a></h3>
+                                                </div>
+                                            </div><!-- .product -->
+                                        </div><!--.wrap -->
+                                    }
+                                </div>
+                            </div>
+                            <div class="uk-width-medium-1-4 main uk-width-small-1-1">
+                                @Html.Action("Menutrai_PartialView", "Home")
+                            </div>
+                        </div>
+                    </div><!-- .ukgrid -->
+                </div><!-- .main-upper -->
+            </div><!-- .main -->
+
+
+        </section><!-- .wrapper -->
+    </div><!-- .uk-container -->
+</section><!-- #body -->

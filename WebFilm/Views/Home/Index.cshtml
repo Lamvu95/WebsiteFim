@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<section id="body">
+    <div class="uk-container uk-container-center">
+        <section class="wrapper">
+            <div class="uk-grid">
+              
+                <div class="uk-width-medium-1-1 main uk-width-small-1-1">
+                    @Html.Action("Phimmoi_Partial", "Home")
+                </div><!-- .main -->
+            </div><!-- .uk-grid -->
+            <div class="uk-grid">
+              
+                <div class="uk-width-medium-3-4 main uk-width-small-1-1">
+                    <div>
+                        @Html.Action("HotMovie_PartialView", "Home")
+                    </div>
+                    <div style="margin-top: 100px;">
+                        @Html.Action("PhimBoHot_PartialView", "Home")
+                    </div>
+                    
+                  
+                </div>
+                <div class="uk-width-medium-1-4 main uk-width-small-1-1">
+                    <div>
+                        @Html.Action("Menutrai_PartialView", "Home")
+                    </div>
+                </div><!-- .main -->
+            </div><!-- .uk-grid -->
+
+
+            
+        </section><!-- .wrapper -->
+    </div><!-- .uk-container -->
+</section><!-- #body -->

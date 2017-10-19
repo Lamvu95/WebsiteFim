@@ -1,0 +1,36 @@
+﻿
+@using WebFilm.Models;
+@model List<Table_Fim>
+<div class="main-top">
+    <div class="heading">
+        <span class="title">Phim Mới</span>
+    </div><!-- .heading -->
+    <div class="uk-slidenav-position index-link-slider" data-uk-slider="{autoplay: false, autoplayInterval: 2000}">
+        <div class="uk-slider-container">
+            <ul class=" uk-grid-width-large-1-1 uk-grid-match" data-uk-grid-match="{target:'.product-name'}" style="overflow-x:scroll;max-height:  902px;margin-left: -30px;">
+                @foreach (var item in Model)
+                {
+                    <li>
+                        <div class="wrap">
+                            <div class="product uk-position-relative">
+                                <div class="uk-grid">
+                                    <div class="uk-width-2-4">
+                                        <a href="@Url.Action("phim/"+@item.IDFim, "Home")"><img src="~/Content/image_webfim/@item.AnhPhim" alt="" style="font-size:12px;" /></a>
+                                    </div>
+                                    <div class="uk-width-2-4">
+                                        <div class="detail" style="padding: 0px;margin-left: -29px;width: 141px;">
+                                            <span class="fa fa-star-0"></span>
+                                            <h3 class="uk-margin-remove" style="font-size:12px;"><a href="Home/phim/@item.IDFim">@item.NameFim</a></h3>
+                                            <h3 class="uk-margin-remove" style="font-size:12px;"><a href="Home/phim/@item.NamSanXuat">@item.NamSanXuat</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .product -->
+                        </div><!--.wrap -->
+                    </li>
+                }
+            </ul>
+        </div><!-- .uk-slider-container -->
+
+    </div><!-- index-link-slider -->
+</div><!-- .main-top -->

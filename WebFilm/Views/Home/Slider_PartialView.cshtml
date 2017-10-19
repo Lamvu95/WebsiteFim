@@ -1,0 +1,15 @@
+﻿@using WebFilm.Models;
+@model List<Table_Fim>
+
+<div class="index-slide uk-slidenav-position" data-uk-slideshow>
+    <ul class="uk-slideshow">
+        @foreach (var item in Model)
+        {
+            <li>
+                <img src="~/Content/image_webfim/@item.AnhPhim" alt="" />
+            </li>
+        }
+    </ul>
+    <a href="" class="uk-slidenav uk-slidenav-previous btn" data-uk-slideshow-item="previous"></a>
+    <a href="" class="uk-slidenav uk-slidenav-next btn" data-uk-slideshow-item="next"></a>
+</div><!-- .index-slide -->

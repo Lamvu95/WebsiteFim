@@ -1,0 +1,65 @@
+﻿@model IEnumerable<WebFilm.Models.Table_Username>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/Admin_LayoutPage.cshtml";
+}
+
+<h2>Quản Lý User</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            User Name
+        </th>
+        <th>
+            Password
+        </th>
+        <th>
+            Ngày Sinh
+        </th>
+        <th>
+            Giới Tính
+        </th>
+        <th>
+            Số Điện Thoại
+        </th>
+        <th>
+            Chức Vụ
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <b style="color:chocolate"> @Html.DisplayFor(modelItem => item.NameUser)</b>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PassUser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgaySinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SDT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Chucvu)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.IDUserName }, new { @class = "btn btn-sm btn-primary" })
+                @Html.ActionLink("Details", "Details", new { id = item.IDUserName }, new { @class = "btn  btn-sm btn-default" })
+                @Html.ActionLink("Delete", "Delete", new { id = item.IDUserName }, new { @class = "btn  btn-sm btn-danger" })
+            </td>
+        </tr>
+    }
+
+</table>

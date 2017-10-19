@@ -1,0 +1,355 @@
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\ApplicationInsights.config
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\csc.exe
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\csc.exe.config
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\csc.rsp
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\csi.exe
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\csi.rsp
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\System.AppContext.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\System.Collections.Immutable.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\System.IO.FileSystem.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\vbc.exe
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\vbc.exe.config
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\vbc.rsp
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\VBCSCompiler.exe
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\roslyn\VBCSCompiler.exe.config
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\WebFilm.dll.config
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\WebFilm.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\WebFilm.pdb
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Antlr3.Runtime.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.AI.Web.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.AI.WindowsServer.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.ApplicationInsights.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Newtonsoft.Json.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\System.Web.Helpers.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\System.Web.Mvc.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\System.Web.Optimization.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\System.Web.Razor.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\System.Web.WebPages.Deployment.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\System.Web.WebPages.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\System.Web.WebPages.Razor.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\WebGrease.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\System.Web.Helpers.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\System.Web.Mvc.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\System.Web.Optimization.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\System.Web.Razor.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\System.Web.WebPages.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\System.Web.WebPages.Deployment.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\System.Web.WebPages.Razor.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Antlr3.Runtime.pdb
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Newtonsoft.Json.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.ApplicationInsights.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.AI.WindowsServer.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\Microsoft.AI.Web.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\obj\Debug\WebFilm.csprojResolveAssemblyReference.cache
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\obj\Debug\WebFilm.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\obj\Debug\WebFilm.pdb
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\EntityFramework.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\EntityFramework.SqlServer.dll
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\EntityFramework.xml
+c:\users\ducan\documents\visual studio 2017\Projects\WebFilm\WebFilm\bin\EntityFramework.SqlServer.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\ApplicationInsights.config
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csc.exe
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csc.exe.config
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csc.rsp
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csi.exe
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csi.rsp
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.AppContext.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\vbc.exe
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\vbc.exe.config
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\vbc.rsp
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\VBCSCompiler.exe
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebFilm.dll.config
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebFilm.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebFilm.pdb
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Antlr3.Runtime.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.SqlServer.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.Web.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.ApplicationInsights.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Newtonsoft.Json.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Helpers.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Mvc.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Optimization.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Razor.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Razor.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebGrease.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.SqlServer.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Helpers.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Mvc.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Optimization.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Razor.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Razor.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Antlr3.Runtime.pdb
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Newtonsoft.Json.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.ApplicationInsights.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.Web.xml
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\obj\Debug\WebFilm.csprojResolveAssemblyReference.cache
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\obj\Debug\WebFilm.dll
+C:\Users\LAM VU\Desktop\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\obj\Debug\WebFilm.pdb
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\ApplicationInsights.config
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csc.exe
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csc.exe.config
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csc.rsp
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csi.exe
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csi.rsp
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.AppContext.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.Collections.Immutable.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.IO.FileSystem.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.Reflection.Metadata.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\vbc.exe
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\vbc.exe.config
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\vbc.rsp
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\VBCSCompiler.exe
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\VBCSCompiler.exe.config
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebFilm.dll.config
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebFilm.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebFilm.pdb
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Antlr3.Runtime.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.SqlServer.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.Agent.Intercept.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.DependencyCollector.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.Web.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.WindowsServer.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.ApplicationInsights.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.Web.Infrastructure.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Newtonsoft.Json.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Helpers.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Mvc.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Optimization.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Razor.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Deployment.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Razor.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebGrease.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.SqlServer.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Helpers.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Mvc.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Optimization.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Razor.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Deployment.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Razor.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Antlr3.Runtime.pdb
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Newtonsoft.Json.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.ApplicationInsights.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.DependencyCollector.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.WindowsServer.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.Web.xml
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\obj\Debug\WebFilm.csprojResolveAssemblyReference.cache
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\obj\Debug\WebFilm.dll
+E:\desktop 14_8\New folder\New folder (3)\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\obj\Debug\WebFilm.pdb
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\ApplicationInsights.config
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csc.exe
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csc.exe.config
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csc.rsp
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csi.exe
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csi.rsp
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.AppContext.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\vbc.exe
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\vbc.exe.config
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\vbc.rsp
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\VBCSCompiler.exe
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebFilm.dll.config
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebFilm.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebFilm.pdb
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Antlr3.Runtime.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.SqlServer.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.Web.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.ApplicationInsights.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Newtonsoft.Json.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Helpers.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Mvc.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Optimization.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Razor.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Razor.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebGrease.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.SqlServer.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Helpers.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Mvc.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Optimization.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Razor.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Razor.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Antlr3.Runtime.pdb
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Newtonsoft.Json.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.ApplicationInsights.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.Web.xml
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\obj\Debug\WebFilm.csprojResolveAssemblyReference.cache
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\obj\Debug\WebFilm.dll
+C:\Users\LAM VU\Desktop\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\obj\Debug\WebFilm.pdb
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\ApplicationInsights.config
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csc.exe
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csc.exe.config
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csc.rsp
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csi.exe
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\csi.rsp
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.AppContext.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.Collections.Immutable.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.IO.FileSystem.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\System.Reflection.Metadata.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\vbc.exe
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\vbc.exe.config
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\vbc.rsp
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\VBCSCompiler.exe
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\roslyn\VBCSCompiler.exe.config
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebFilm.dll.config
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebFilm.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebFilm.pdb
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Antlr3.Runtime.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.SqlServer.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.Agent.Intercept.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.DependencyCollector.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.Web.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.WindowsServer.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.ApplicationInsights.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.Web.Infrastructure.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Newtonsoft.Json.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Helpers.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Mvc.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Optimization.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Razor.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Deployment.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Razor.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\WebGrease.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\EntityFramework.SqlServer.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Helpers.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Mvc.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Optimization.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.Razor.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Deployment.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\System.Web.WebPages.Razor.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Antlr3.Runtime.pdb
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Newtonsoft.Json.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.ApplicationInsights.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.DependencyCollector.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.WindowsServer.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\bin\Microsoft.AI.Web.xml
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\obj\Debug\WebFilm.dll
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\obj\Debug\WebFilm.pdb
+E:\desktop\desktop_11_10_2017\image_webfim\WEBFIM\WEBFIM\WebFilm\WebFilm\WebFilm\obj\Debug\WebFilm.csprojResolveAssemblyReference.cache

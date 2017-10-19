@@ -1,0 +1,104 @@
+﻿@model IEnumerable<WebFilm.Models.Table_Fim>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/Admin_LayoutPage.cshtml";
+}
+<h2>Quản Lý Phim</h2>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered table-striped table-hover" >
+    <tr>
+        <th>
+           Tên Phim
+        </th>
+        <th>
+            Anh Phim
+        </th>
+        <th>
+           Tên Diễn Viên
+        </th>
+        <th>
+          Anh Diễn Viên
+
+        </th>
+      
+        <th>
+           Tên Đạo Diễn
+        </th>
+        <th>
+           Năm Sản Xuất
+        </th>
+        <th>
+           Nơi Sản Xuất
+        </th>
+        <th>
+           Điểm Chất Lượng
+        </th>
+     
+        <th>
+          Silde
+        </th>
+        <th>
+           Link Phim
+        </th>
+        <th>
+            Tên Thể Loại
+        </th>
+        <th>
+           Người Nhập Phim
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <b style="color:darkgreen"> @Html.DisplayFor(modelItem => item.NameFim)</b>
+        </td>
+        <td>
+            @*@Html.DisplayFor(modelItem => item.AnhPhim)*@
+            <img src="~/Content/image_webfim/@item.AnhPhim" width="50" height="50" title="anh của phim: @item.NameFim"/>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenDienVien)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AnhDienVien)
+        </td>
+      
+        <td>
+            @Html.DisplayFor(modelItem => item.DaoDien)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NamSanXuat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NoiSanXuat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rating)
+        </td>
+       
+        <td  >
+            @Html.DisplayFor(modelItem => item.Slide)
+        </td>
+        <td>
+            <a>@Html.DisplayFor(modelItem => item.url)</a>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Table_TheLoai.NameTheLoai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Table_Username.NameUser)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IDFim  },new {  @class = "btn btn-sm btn-primary" }) 
+            @Html.ActionLink("Details", "Details", new { id=item.IDFim },new { @class= "btn  btn-sm btn-default" }) 
+            @Html.ActionLink("Delete", "Delete", new { id=item.IDFim }, new {@class= "btn  btn-sm btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

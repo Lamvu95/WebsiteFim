@@ -1,0 +1,59 @@
+/* ================================================================ _ ini.css ================================================================ */
+/**
+ * UNCHANGED STYLES
+ */
+/* ==================== #OFFCANVAS ==================== */
+#offcanvas li.l1 > a.dropicon { position: absolute; z-index: 0; padding: 10px 20px; border-left: 1px solid #242424; right: 2px; top: 0; width: 0 }
+#offcanvas li.l1 > a:not(.dropicon)::after { display: none; }
+#offcanvas li.l1.uk-parent>a:not(.dropicon) { margin-right: 42px; }
+#offcanvas ul.l3 { padding: 0 0 0 15px; margin: 5px 0; border-top: 0; -webkit-box-shadow: inset 1px 0 0 rgba(255,255,255,.05); box-shadow: inset 1px 0 0 rgba(255,255,255,.05); border-left: 1px solid rgba(0,0,0,.3); }
+
+/* ==================== .FC-CROP-CENTER-IMG ==================== */
+*[class*=fc-crop-center-img] { position: relative; z-index: 1; overflow: hidden; display: block; }
+*[class*=fc-crop-center-img] > img { position: absolute; z-index: 0; max-width: initial; max-height: initial; left: 50%; top: 50%; -webkit-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+.fc-crop-center-img-h > img { height: 100%; width: auto; }
+.fc-crop-center-img-v > img { height: auto; width: 100%; }
+
+/* ==================== .FC-TRUNCATE-LINE ==================== */
+*[class*=fc-truncate-line] { overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; }
+.fc-truncate-line-2 { -webkit-line-clamp: 2; }
+.fc-truncate-line-3 { -webkit-line-clamp: 3; }
+
+/* ==================== .FC-FIT-IMG ==================== */
+.fc-fit-img { position: relative; display: block; text-align: center; }
+.fc-fit-img > img { max-width: 100%; max-height: 100%; position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+
+/* ==================== OTHER FIXES ==================== */
+.fc-transition { -webkit-transition: all ease .4s; -moz-transition: all ease .4s; -ms-transition: all ease .4s; -o-transition: all ease .4s; transition: all ease .4s; }
+/*.fc-transition-delay { -webkit-transition-delay: .2s; -moz-transition-delay: .2s; -ms-transition-delay: .2s; -o-transition-delay: .2s; transition-delay: .2s; }*/
+.fc-float-remove { float: none; }
+.fc-text-uppercase { text-transform: uppercase; }
+.margin-bottom-35px { margin-bottom: 35px; }
+.margin-bottom-25px { margin-bottom: 25px; }
+.margin-bottom-10px { margin-bottom: 10px; }
+.margin-top-25px { margin-top: 25px; }
+.margin-right-25px { margin-right: 25px; }
+.margin-right-10px { margin-right: 10px; }
+.margin-left-35px { margin-left: 35px; }
+.margin-left-10px { margin-left: 10px; }
+
+@media (min-width: 768px) { .uk-grid-width-medium-1-1>* { width: 100%; } }
+@media (min-width: 960px) { .uk-grid-width-large-1-1>* { width: 100%; } }
+
+@media (min-width: 768px) { [class*=fc-push-], [class*=fc-pull-] { position: relative; } }
+@media (min-width: 768px) and (max-width: 959px) {
+	.fc-push-medium-1-3 { left: 33.3333%; }
+	.fc-push-medium-1-4 { left: 25%; }
+	.fc-pull-medium-2-3 { left: -66.6666%; }
+	.fc-pull-medium-3-4 { left: -75%; }
+}
+@media (min-width: 960px) {
+	.fc-push-large-1-4 { left: 25%; }
+	.fc-push-large-1-5 { left: 20%; }
+	.fc-pull-large-3-4 { left: -75%; }
+	.fc-pull-large-4-5 { left: -80%; }
+}
+
+@media (min-width: 768px) and (max-width: 1219px) {}
+@media (min-width: 960px) and (max-width: 1219px) {}
+@media (min-width: 768px) and (max-width: 959px) {}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c5a5f37e9b3142c2be096cc119b7aa7c" Name="Diagram1">
+        <EntityTypeShape EntityType="WebFilmModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebFilmModel.Table_CaTaLog" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebFilmModel.Table_CauHinh" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebFilmModel.Table_Comment" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebFilmModel.Table_Fim" Width="1.5" PointX="3" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebFilmModel.Table_GiaoDienWed" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebFilmModel.table_QuangCao" Width="1.5" PointX="3" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebFilmModel.Table_TheLoai" Width="1.5" PointX="0.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebFilmModel.Table_TinTuc" Width="1.5" PointX="3" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebFilmModel.Table_Trailer" Width="1.5" PointX="5.25" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebFilmModel.Table_Username" Width="1.5" PointX="0.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebFilmModel.Table_YeuCau" Width="1.5" PointX="5.25" PointY="16.375" IsExpanded="true" />
+        <AssociationConnector Association="WebFilmModel.FK__Table_CaT__IDUse__4C6B5938" ManuallyRouted="false" />
+        <AssociationConnector Association="WebFilmModel.FK__Table_Cau__IDUse__6CD828CA" ManuallyRouted="false" />
+        <AssociationConnector Association="WebFilmModel.FK__Table_Com__IDFim__5AB9788F" ManuallyRouted="false" />
+        <AssociationConnector Association="WebFilmModel.FK__Table_Fim__IDThe__55009F39" ManuallyRouted="false" />
+        <AssociationConnector Association="WebFilmModel.FK__Table_Fim__IDUse__55F4C372" ManuallyRouted="false" />
+        <AssociationConnector Association="WebFilmModel.FK__Table_Tra__IDFim__719CDDE7" ManuallyRouted="false" />
+        <AssociationConnector Association="WebFilmModel.FK__Table_Yeu__IDFim__6442E2C9" ManuallyRouted="false" />
+        <AssociationConnector Association="WebFilmModel.FK__table_Qua__IDUse__47A6A41B" ManuallyRouted="false" />
+        <AssociationConnector Association="WebFilmModel.FK__Table_Tin__IDUse__5F7E2DAC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
